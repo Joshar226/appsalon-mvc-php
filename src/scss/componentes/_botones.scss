@@ -1,0 +1,11 @@
+@use "base/variables" as *;
+@use "base/mixins" as *;
+
+.boton {
+    @include boton($azul, $blanco);
+}
+
+.boton-eliminar {
+    @include boton($rojo, $blanco);
+    margin: 3rem 0;
+}
